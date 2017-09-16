@@ -1,5 +1,7 @@
 var twit = require('twit');
-var config = require('./config.js');
+var Twitter = require('./config.js'); 
+
+console.log(Twitter);
 
 var retweet=function(){
     var params={
